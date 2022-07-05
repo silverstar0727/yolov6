@@ -1,0 +1,11 @@
+car
+bus
+hdv
+truck
+motorcycle
+bicycle
+personal_mobility
+firetruck
+police
+ambulance
+pedestrian

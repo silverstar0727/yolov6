@@ -1,0 +1,12 @@
+# COCO 2017 dataset http://cocodataset.org
+train: data/coco/images # 118287 images
+val: data/coco/images
+anno_path: train.json
+# number of classes
+nc: 11
+# whether it is coco dataset, only coco dataset should be set to True.
+is_coco: True
+
+# class names
+names: [ 'car', 'bus', 'hdv', 'truck', 'motorcycle', 'bicycle', 'personal_mobility', 'firetruck', 'police', 'ambulance',
+         'pedestrian' ]
