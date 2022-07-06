@@ -35,7 +35,8 @@ if __name__ == '__main__':
     parser.add_argument('--conf-thres', type=float, default=0.25, help='conf threshold for NMS')
     parser.add_argument('--device', default='0', help='cuda device, i.e. 0 or 0,1,2,3 or cpu')
     args = parser.parse_args()
-    args.img_size *= 2 if len(args.img_size) == 1 else 1  # expand
+    # args.img_size *= 2 if len(args.img_size) == 1 else 1  # expand
+    args.img_size=[544,960]
     print(args)
     t = time.time()
 
